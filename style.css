@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin-left: 600px;
+    font-family:monospace;
+    font-size: xx-large;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-media img {
+    max-width: 30px;
+    max-height: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.media {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    max-width: 500px;
+    max-height: 700px;
+    margin-left: 20px;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.mapimg img {
+    max-width: 500px;
+    max-height: 700px;
+    margin-left: 20px;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.info {
+    position: absolute;
+    top: 600px;
+    right: 560px; /*kaardi all ainult fullscreenis.*/
+    max-width: 250px; 
+    text-align: left;
+    font-size: 16px;
+}
+
+.info p {
+    margin-bottom: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 600px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #cec7ba;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
